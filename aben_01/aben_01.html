@@ -1,0 +1,184 @@
+<!-- Christopher Aben/COS231/Assignment 01 -->
+<!doctype html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Assignment 01</title>
+  <style>
+    .horizontal {
+    	width: 40%;
+    }
+    hr {
+    	background-color: #000;
+    	border: 0 none;
+    	color: #000;
+    	height: 1.5px;
+   }
+   .comments {
+     margin-top: 65px;
+   }
+  </style>
+</head>
+<body>
+  <h1>Mars Tourism Board. We are here to help. Don't worry about a thing!</h1>
+  <h3>What is the primary purpose of your trip?</h3>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <input type="radio" name="activity" value="Business"> Business
+        </td>
+        <td>
+          <input type="radio" name="activity" value="General Tourism"> General Tourism
+        </td>
+        <td>
+          <input type="radio" name="activity" value="Romance"> Romance
+        </td>
+      </tr>
+    </table>
+  </form>
+  
+  <h3>Who is travelling with you? Check all that apply.</h3>
+  <form>
+    <table>
+      <tr>
+        <td>
+ 	      <input type="checkbox" name="partner" value="Adults"> Adults
+ 	    </td>
+ 	    <td>
+ 	      <input type="checkbox" name="partner" value="Cyborgs or Androids"> Cyborgs/Androids
+ 	   </td>
+ 	   <td>
+ 	    <input type="checkbox" name="partner" value="Pets"> Pets <br>
+ 	   </td>
+ 	 </tr>
+ 	 <tr>
+ 	   <td>
+ 	    <input type="checkbox" name="partner" value="Minors"> Minors
+ 	   </td>
+ 	   <td>
+  	    <input type="checkbox" name="partner" value="Enhanced animal"> Enhanced Animal
+       </td>
+       <td></td>
+  	 </tr>
+    </table>
+  </form>
+  
+  <h3>Where will you stay the majority of your trip?</h3>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <input type="radio" name="location" value="The Resort at OLympus Mons"><i>The Resort</i> at Olympus Mons
+        </td>
+        <td>
+          <input type="radio" name="location" value="Goverment Facility"> Government Facility
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="location" value="Mariner Lodge at Valles Marineris"><i>Mariner Lodge</i> at Valles Marineris
+        </td>
+        <td>
+          <input type="radio" name="location" value="Prospecting or working claim"> Prospecting or working claim
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="location" value="Norther Vistas at Planum Boreum"><i>Norther Vistas</i> at Planum Boreum
+        </td>
+        <td>
+          <input type="radio" name="location" value="Other"> Other
+        </td>
+      </tr>
+    </table>
+  </form>
+  
+  <h3>What activities are you interested in? Check all that apply.</h3>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <input type="checkbox" name="activity" value="Amazonis Planitia"> Amazonis Planitia 500 km pod racer rally
+        </td>
+        <td>
+          <input type="checkbox" name="activity" value="Photography"> Photography
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="activity" value="Planum Boreum snowmobile trek"> Planum Boreum snowmobile trek
+        </td>
+        <td>
+          <input type="checkbox" name="activity" value="Photography"> Research 
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="activity" value="Water/mineral prospecting or working claim">Water/mineral prospecting or working claim
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+ 
+    </table>
+  </form>
+  <div class="horizontal">
+    <hr>
+  </div>
+  
+  <h3>Personal Information</h3>
+  <form>
+  	<table>
+  	  <tr>
+  	    <td> Preferred salutation </td>
+  	    <td>
+  	    	<select>
+  	    	  <option value="Mr">Mr</option>
+  	    	  <option value="Mrs">Mrs</option>  	
+  	    	  <option value="Ms">Ms</option>
+  	    	</select>
+  	    </td>
+  	  </tr>
+  	  <tr>
+  	    <td> Last name </td>
+  	    <td><input type="text" name="lastname">
+  	  </tr>
+  	  <tr>
+  	    <td> Identification Number </td>
+  	    <td><input type="text" name="id"></td>
+  	  </tr>
+  	  <tr>
+  	    <td> Email </td>
+  	    <td><input type="text" name="email"></td>
+  	  </tr>
+  	</table>
+  </form>
+  
+  <h3> What are you? </h3>
+  <form>
+	  <select>
+        <option value="Human"> Human </option>
+        <option value="Alien"> Space Alien </option>
+        <option value="Android"> Android </option>
+        <option value="Cyborg"> Cyborg </option>
+        <option value="Enhanced animal"> Enhanced animal </option>
+      </select>
+
+  </form>
+  <div class="comments">
+    <h3> Other Comments/questions? </h3>
+    <textarea rows="6" cols="50">This test will be forward to a "customer associate" for careful analysis. We will be getting back to you.
+    </textarea>
+  </div>
+  
+  <div class="horizontal">
+    <hr>
+  </div>
+  
+  <h3>Your instructions are to click </h3>
+  <table>
+    <tr>
+      <td><button type="button">Clear all data</button></td>
+      <td><button type="button">Tell us what we need to know</button></td>
+    </tr>
+  </table>
+</body>
