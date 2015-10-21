@@ -1,0 +1,1 @@
+-Used JQuery to manipulate font size and webpage grayscale

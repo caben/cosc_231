@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+
+.container {
+  margin-left: 40px;
+}
+
+input {
+  margin: 10px;
+}
