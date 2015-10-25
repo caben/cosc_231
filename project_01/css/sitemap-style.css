@@ -1,0 +1,25 @@
+body {
+  background-image: url('http://www.wtfgamersonly.com/wp-content/uploads/2014/09/magneto_defending_w1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  border: 1px red solid;
+  border-radius: 1em;
+}
+
+.starter-template {
+  opacity: 0.9;
+  margin-top: 50px;
+  padding-bottom: 200px;
+  border-radius: 1em;
+}
+
+.starter-template .nav {
+  position: relative;
+  top: 70px;
+  font-size: 20px;
+} 
+

@@ -1,0 +1,59 @@
+body {
+  background-image: url('http://pre10.deviantart.net/f8e1/th/pre/f/2012/195/e/d/magneto__s_helmet_by_azizdraws-d57884l.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.join-template {
+  position: relative;
+
+  bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  background-color: black;
+  opacity: 0.95;
+  color: white;
+  border: 5px solid red;
+  padding-bottom: 150px;
+  margin-top: 25px;
+  border-radius: 1em;
+  border-top: black;
+
+}
+
+.join-template input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-events form {
+  position: relative;
+  top: 30px;
+  display: block;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid maroon;
+    border-radius: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+form div + div {
+    margin-top: 1em;
+}

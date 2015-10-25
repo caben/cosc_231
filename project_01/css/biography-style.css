@@ -1,0 +1,114 @@
+body {
+  background-image: url('../images/magneto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+.bio-template {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  border: 5px solid red;
+  border-radius: 1em;
+
+}
+.bio-header h1 {
+  position: relative; 
+  top: 20px;
+  border: 2px maroon solid;
+  color: maroon;
+  padding-top: 25px;
+}
+.bio-template .bio-events {
+  border: 1px maroon solid;
+  border-radius: 1em;
+  font-size: 16px;
+}
+.bio-template h1 {
+  border: 5px bold red;
+  border-radius: 1em;
+}
+.bio-template {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  background-color: black;
+  opacity: 0.95;
+  color: white;
+  border: 5px solid red;
+  border-radius: 1em;
+  border-top: black;
+  border-bottom: black;
+
+}
+.container .bio-template ul {
+  font-size: 30px;
+  text-align: left;
+  padding-top: 35px;
+
+
+}
+
+.container .bio-template h1 {
+  position: relative;
+  bottom: 100px;
+  padding-bottom: 30px;
+  
+}
+
+.container .bio-template ul li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+};
+
+
+
+
+.bio-template {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  border: 5px solid red;
+  border-radius: 1em;
+  border-top: black;
+  border-bottom: black;
+
+}
+
+.container .bio-template ul {
+  font-size: 26px;
+  text-align: left;
+  padding-top: 35px;
+
+
+}
+
+.container .bio-template h1 {
+  padding-bottom: 30px;
+}
+
+.container .bio-template ul li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+

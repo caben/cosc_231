@@ -1,0 +1,62 @@
+body {
+  background-image: url('http://vignette3.wikia.nocookie.net/marveldatabase/images/a/af/Magneto1.png/revision/latest?cb=20120414193353');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.about-template {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  background-color: black;
+  opacity: 0.95;
+  color: white;
+
+  border: 5px solid red;
+    border-radius: 1em;
+  border-top: black;
+  border-bottom: black
+
+
+}
+
+.club-members {
+  position: relative;
+  top: 0px;
+  border: 2px maroon solid;
+}
+.about-template .about-events {
+  position: relative;
+  top: 0px;
+  border: 2px maroon solid;
+}
+
+.container .about-template ul {
+  font-size: 26px;
+  text-align: left;
+  padding-top: 35px;
+
+
+}
+
+.container .about-template h1 {
+  background-color: black;
+}
+
+.container .about-template ul li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mark-header {
+  position: relative; 
+  top: 0;
+  background-color: white;
+  
+}
